@@ -1,6 +1,8 @@
+import registerCypressGrep from '@cypress/grep/src/support'
+registerCypressGrep()
 
-import 'cypress-mailosaur'
-import './commands'
 import 'cypress-iframe'
+import 'cypress-mailosaur'
 
-// suport arquivos aucxiliares e de suporte ao teste
+import './commands'
+
