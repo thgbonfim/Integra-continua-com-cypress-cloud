@@ -9,5 +9,5 @@ module.exports = defineConfig({
   
     },
   },
-  projectId: '97xhv2',
+  projectId: '97xhv2'
 })
