@@ -12,5 +12,5 @@ module.exports = defineConfig({
       return config
     },
   },
-  projectId: 'ywd6nd',
+  projectId: '97xhv2',
 })
