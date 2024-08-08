@@ -1,3 +1,4 @@
+
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
@@ -12,5 +13,5 @@ module.exports = defineConfig({
       return config
     },
   },
-  projectId: '97xhv2',
+  projectId: 'ywd6nd',
 })
