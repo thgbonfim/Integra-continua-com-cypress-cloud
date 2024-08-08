@@ -5,8 +5,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://notes-serverless-app.com',
     env: {
-      viewportWidthBreakpoint: 768,
-  
+      viewportWidthBreakpoint: 768, 
   
     },
   },
