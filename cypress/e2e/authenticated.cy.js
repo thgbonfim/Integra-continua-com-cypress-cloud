@@ -28,6 +28,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
     cy.intercept('POST', '**/prod/billing').as('paymentRequest')
 
     cy.fillSettingsFormAndSubmit()
+    // eslint-disable-next-line cypress/no-unnecessary-waiting
     cy.wait(1000)
 
     cy.wait('@getNotes')
