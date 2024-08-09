@@ -28,6 +28,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
     cy.intercept('POST', '**/prod/billing').as('paymentRequest')
 
     cy.fillSettingsFormAndSubmit()
+    cy.wait(1000)
 
     cy.wait('@getNotes')
     cy.wait('@paymentRequest')
